@@ -4,7 +4,12 @@ const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 
 module.exports = defineConfig({
   transpileDependencies: true,
-
+  pages: {
+    index: {
+      entry: 'src/main.js',
+      title: 'Page Title',
+    },
+  },
   configureWebpack: {
     plugins: [
       new FaviconsWebpackPlugin(`./src/assets/logo.png`)
