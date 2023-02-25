@@ -1,10 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <main-header />
 </template>
 
 <script setup>
-import HelloWorld from './components/Tailwind-Test.vue'
 import '@/assets/style.css'
+import MainHeader from './components/Main-Header.vue';
 </script>
 
