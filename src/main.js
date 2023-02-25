@@ -5,5 +5,7 @@ import '@/assets/style.css'
 
 const Vue = createApp(App);
 
+
+
 //Vue.use(VueMeta)
 Vue.mount('#app')
