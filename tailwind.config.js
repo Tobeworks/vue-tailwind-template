@@ -16,7 +16,7 @@ module.exports = {
                 800: '#000000',
                 900: '#000000'
             },
-            'secodary': {
+            yelow: {
                 DEFAULT: '#FFD60A',
                 50: '#FFF5C2',
                 100: '#FFF1AD',
