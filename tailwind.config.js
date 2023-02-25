@@ -166,10 +166,7 @@ module.exports = {
             "5xl": '3.052rem',
         },
         fontFamily: {
-            poppins: ["Poppins"],
-            "poppins-semi-bold": ["Poppins SemiBold"],
-            "poppins-bold": ["Poppins Bold"],
-            "poppins-light": ["Poppins Light"],
+            Montserrat: ["Montserrat"],
         },
         plugins: [
             require('@tailwindcss/typography'),
